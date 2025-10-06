@@ -46,6 +46,7 @@ ls -la
 # view the obvious file that is typically present
 cat readme
 ```
+<img width="319" height="98" alt="Screenshot 2025-10-06 075714" src="https://github.com/user-attachments/assets/c248ced7-9cf4-4b02-9e19-51a547ee822c" />
 
 Example (trimmed) output:
 
