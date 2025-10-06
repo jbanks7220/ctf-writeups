@@ -257,7 +257,6 @@ ssh bandit4@bandit.labs.overthewire.org -p 2220
 #use the command file ./* to print the data types 
 Example (trimmed) output:
 
-```
 $ file ./*
 /-file00: data
 ./-file01: data
@@ -273,6 +272,11 @@ $ cat ./-file07
 <4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw>
 ```
 
+<img width="555" height="236" alt="Screenshot 2025-10-06 122137" src="https://github.com/user-attachments/assets/e3a86f59-f763-485d-b449-d6cafc9993b9" />
+<img width="334" height="259" alt="Screenshot 2025-10-06 122519" src="https://github.com/user-attachments/assets/506646f7-8ccc-4c2d-b99a-65d19b32d275" />
+
+
+```
 ### Result
 
 Located the file by size and read the password for the next level.
