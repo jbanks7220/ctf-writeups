@@ -96,6 +96,11 @@ ls -la
 cat ./-
 ```
 
+<img width="585" height="246" alt="Screenshot 2025-10-06 093533" src="https://github.com/user-attachments/assets/196c21ba-ebcf-4552-b8ce-3202b808805f" />
+<img width="505" height="151" alt="Screenshot 2025-10-06 093618" src="https://github.com/user-attachments/assets/15cfd054-81eb-4bc5-803e-05b6aa9d2845" />
+<img width="269" height="68" alt="Screenshot 2025-10-06 093720" src="https://github.com/user-attachments/assets/5111b86c-1354-4864-a5a3-f8ca8474fee8" />
+
+
 Example (trimmed) output:
 
 ```
