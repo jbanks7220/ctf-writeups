@@ -203,8 +203,6 @@ cat ./...Hiding-From-You
 ```
 
 <img width="555" height="232" alt="Screenshot 2025-10-06 095550" src="https://github.com/user-attachments/assets/3ac13b6d-c41c-41d0-a325-b28016b15634" />
-<img width="457" height="164" alt="Screenshot 2025-10-06 095637" src="https://github.com/user-attachments/assets/9e6ec819-de21-4484-b576-f7741a905cd1" />
-<img width="533" height="134" alt="Screenshot 2025-10-06 095708" src="https://github.com/user-attachments/assets/d1ce4ca0-58ae-4d79-98c9-f40d4aef7da5" />
 <img width="529" height="148" alt="Screenshot 2025-10-06 121610" src="https://github.com/user-attachments/assets/0d97ba48-4a58-4bc0-a9a4-bb1668e2c7ff" />
 
 
