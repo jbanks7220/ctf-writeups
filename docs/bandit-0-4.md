@@ -47,7 +47,9 @@ ls -la
 cat readme
 ```
 <img width="873" height="357" alt="Screenshot 2025-10-06 093126" src="https://github.com/user-attachments/assets/99f7396b-8707-4728-8fb0-a5d9ca8f5608" />
+
 <img width="507" height="159" alt="Screenshot 2025-10-06 093207" src="https://github.com/user-attachments/assets/d59f929b-966e-47c0-95fb-0bfdac3a3a5c" />
+
 <img width="681" height="166" alt="Screenshot 2025-10-06 093245" src="https://github.com/user-attachments/assets/59cd82aa-5223-4c75-9232-2526ad7b9886" />
 
 
@@ -97,7 +99,9 @@ cat ./-
 ```
 
 <img width="585" height="246" alt="Screenshot 2025-10-06 093533" src="https://github.com/user-attachments/assets/196c21ba-ebcf-4552-b8ce-3202b808805f" />
+
 <img width="505" height="151" alt="Screenshot 2025-10-06 093618" src="https://github.com/user-attachments/assets/15cfd054-81eb-4bc5-803e-05b6aa9d2845" />
+
 <img width="269" height="68" alt="Screenshot 2025-10-06 093720" src="https://github.com/user-attachments/assets/5111b86c-1354-4864-a5a3-f8ca8474fee8" />
 
 
