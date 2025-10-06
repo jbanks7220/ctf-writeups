@@ -46,7 +46,11 @@ ls -la
 # view the obvious file that is typically present
 cat readme
 ```
-<img width="319" height="98" alt="Screenshot 2025-10-06 075714" src="https://github.com/user-attachments/assets/c248ced7-9cf4-4b02-9e19-51a547ee822c" />
+<img width="873" height="357" alt="Screenshot 2025-10-06 093126" src="https://github.com/user-attachments/assets/99f7396b-8707-4728-8fb0-a5d9ca8f5608" />
+<img width="507" height="159" alt="Screenshot 2025-10-06 093207" src="https://github.com/user-attachments/assets/d59f929b-966e-47c0-95fb-0bfdac3a3a5c" />
+<img width="681" height="166" alt="Screenshot 2025-10-06 093245" src="https://github.com/user-attachments/assets/59cd82aa-5223-4c75-9232-2526ad7b9886" />
+
+
 
 Example (trimmed) output:
 
