@@ -35,6 +35,7 @@
 
 2. **Test allowed file types:** Upload common image files (`.jpg`, `.png`) and observe behavior. Attempt to upload a `.php` file — note the server response or error message.
    <img width="697" height="371" alt="Screenshot 2025-10-07 124341" src="https://github.com/user-attachments/assets/b3636237-f0cd-4172-83a6-917a11180f94" />
+   <img width="354" height="136" alt="Screenshot 2025-10-07 124424" src="https://github.com/user-attachments/assets/b4439ab2-dc02-4e29-8127-ba9188cd03d6" />
    <img width="695" height="476" alt="Screenshot 2025-10-07 124513" src="https://github.com/user-attachments/assets/4501b4ed-247d-4029-af9f-7bdcd4b5997f" />
 
 3. **Check returned file location:** After upload, where is the file stored? Is it accessible via a URL? Does the application sanitize file names or change the extension?
