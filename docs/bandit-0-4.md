@@ -276,7 +276,6 @@ $ cat ./-file07
 <img width="334" height="259" alt="Screenshot 2025-10-06 122519" src="https://github.com/user-attachments/assets/506646f7-8ccc-4c2d-b99a-65d19b32d275" />
 
 
-```
 ### Result
 
 Located the file by size and read the password for the next level.
