@@ -6,26 +6,26 @@ Retrieve hidden data from a database.
 
 ### 🧩 SQL Injection in WHERE Clause – Retrieving Hidden Data
 **🔍 Step 1: Identifying the Injection Point**
-Screenshot Reference: Browser URL with /filter?category=
+
 I began by analyzing the URL structure and noticed the category parameter was passed directly to the backend. This hinted at a potential injection point.
 
 <img width="931" height="869" alt="Screenshot 2025-10-07 135039" src="https://github.com/user-attachments/assets/3f9085a6-e994-49fe-9b84-75dc17d6f27c" />
 
 **🧪 Step 2: Testing for SQL Injection**
-Screenshot Reference: URL with filter?category=
+
 Injecting a single quote (') caused a server error, confirming that the input was being processed by a SQL query.
 
 <img width="621" height="170" alt="Screenshot 2025-10-07 135115" src="https://github.com/user-attachments/assets/a710ba51-f17a-4e40-848d-eeb059f74801" />
 
 **🧬 Step 3: Crafting the Payload**
-Screenshot Reference: URL with filter?category=' or 1=1--
+
 I used the classic ' OR 1=1-- payload to bypass the WHERE clause condition. This forced the query to return all rows, including hidden data.
 
 <img width="631" height="121" alt="Screenshot 2025-10-07 135138v2" src="https://github.com/user-attachments/assets/2fc9016e-a349-4d21-b3d8-3f6044b11a4c" />
 
 
 **✅ Step 4: Successful Exploitation**
-Screenshot References: Multiple pages showing "Congratulations, you solved the lab!"
+
 The lab confirmed that the injection worked and hidden product categories were revealed. Mission accomplished.
 
 <img width="751" height="429" alt="Screenshot 2025-10-07 135138" src="https://github.com/user-attachments/assets/3072e560-4c65-447d-9a1a-47bd96f36e4c" />
