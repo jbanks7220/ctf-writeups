@@ -62,6 +62,7 @@ Screenshot Reference: Burp Suite - Repeater with shrek. payload
 
 <img width="858" height="667" alt="Screenshot 2025-10-07 130238" src="https://github.com/user-attachments/assets/b798974a-d8a9-4334-9be4-96bae7b8dd06" />
 
+<img width="695" height="476" alt="Screenshot 2025-10-07 124513" src="https://github.com/user-attachments/assets/9e210e96-cf05-45fd-9433-70e92f2ebc77" />
 
 With the .htaccess file in place, I re-uploaded the web shell disguised as shrek.exploit. The payload contained:
 
