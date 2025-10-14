@@ -48,7 +48,7 @@ http%3A%2F%2F127.1%2Fadmin
 
 and
 ```
-http://127.0.0.1:8080%2525dmin
+http://127.1%2561dmin
 ```
 
 <img width="796" height="425" alt="Screenshot 2025-10-12 180400" src="https://github.com/user-attachments/assets/08999027-6963-4c92-ba47-44a591f96dfe" />
