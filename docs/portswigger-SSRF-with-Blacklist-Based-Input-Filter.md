@@ -35,6 +35,8 @@ stockApi=http://127.0.0.1/admin
 This was blocked by the blacklist filter, returning:
 "External stock check blocked for security reasons"
 
+<img width="493" height="200" alt="Screenshot 2025-10-12 174741" src="https://github.com/user-attachments/assets/50e72fc7-e931-46a7-ac28-c21aa5365c73" />
+
 ### 🧪 Step 4: Bypassing the Blacklist
 
 Encoded payloads like:
