@@ -37,8 +37,11 @@
    <img width="697" height="371" alt="Screenshot 2025-10-07 124341" src="https://github.com/user-attachments/assets/b3636237-f0cd-4172-83a6-917a11180f94" />
    <img width="354" height="136" alt="Screenshot 2025-10-07 124424" src="https://github.com/user-attachments/assets/b4439ab2-dc02-4e29-8127-ba9188cd03d6" />
    <img width="695" height="476" alt="Screenshot 2025-10-07 124513" src="https://github.com/user-attachments/assets/4501b4ed-247d-4029-af9f-7bdcd4b5997f" />
+<img width="687" height="255" alt="Screenshot 2025-10-13 171305" src="https://github.com/user-attachments/assets/280d7635-863c-49a0-aa0c-07a722c8d745" />
+<img width="553" height="106" alt="Screenshot 2025-10-13 171337" src="https://github.com/user-attachments/assets/f07f8e0b-5c5f-40c6-80c9-b3dc20ba304a" />
 
-3. **Check returned file location:** After upload, where is the file stored? Is it accessible via a URL? Does the application sanitize file names or change the extension?
+
+4. **Check returned file location:** After upload, where is the file stored? Is it accessible via a URL? Does the application sanitize file names or change the extension?
    
 Typical behavior in this lab: the application blocks uploads based on file extension using a blacklist (e.g., blocking `.php`, `.phtml`, `.jsp`), but allows certain e.g. `.php.jpg` or other tricked filenames. The server may rely solely on the filename rather than content-type or file magic bytes.
 
