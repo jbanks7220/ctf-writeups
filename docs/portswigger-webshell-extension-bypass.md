@@ -1,4 +1,4 @@
-# 🛡️ Web Security Academy Lab:** Web Shell Upload via Extension Blacklist Bypass
+# 🛡️ Web Security Academy Lab: Web Shell Upload via Extension Blacklist Bypass
 🧠 Objective
 The goal of this lab was to bypass a server-side blacklist that restricts certain file extensions (e.g., .php) and successfully upload a web shell to extract sensitive information.
 
