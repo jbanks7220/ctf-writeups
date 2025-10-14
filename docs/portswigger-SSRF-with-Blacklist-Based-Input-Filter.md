@@ -57,7 +57,7 @@ I used techniques like:
 
 Alternate IP representations (127.1, 2130706433)
 
-Double URL encoding (%2525dmin → %25dmin → admin) These payloads bypassed the blacklist and reached internal endpoints.
+Double URL encoding (%2561dmin → %61dmin → admin) These payloads bypassed the blacklist and reached internal endpoints.
 
 <img width="486" height="333" alt="Screenshot 2025-10-12 181458" src="https://github.com/user-attachments/assets/a8f67ae7-64c9-42e5-bd53-c3333cea111d" />
 
