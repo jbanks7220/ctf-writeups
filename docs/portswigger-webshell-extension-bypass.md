@@ -18,7 +18,7 @@ I began by attempting to upload a basic PHP web shell (exploit.php) via the avat
 Screenshot Reference: Burp Suite - HTTP History and Request to /my-account/avatar
 <img width="855" height="624" alt="Screenshot 2025-10-07 124643" src="https://github.com/user-attachments/assets/cbec31e0-be56-4441-acac-ce60ceb6bd74" />
 
-<img width="855" height="638" alt="Screenshot 2025-10-07 124738" src="https://github.com/user-attachments/assets/429b2e7a-8262-4fcd-8b8e-c8426c0af2b3" />
+<img width="526" height="282" alt="Screenshot 2025-10-07 124610" src="https://github.com/user-attachments/assets/8414060d-c28e-4962-a1c3-54e41f92b0f1" />
 
 
 Using Burp Suite, I intercepted the avatar upload request. The multipart/form-data payload revealed the structure of the file upload, including the filename and content-type headers. This gave me insight into how the server processes uploads.
@@ -26,15 +26,31 @@ Using Burp Suite, I intercepted the avatar upload request. The multipart/form-da
 🧬 Step 3: Attempting a Bypass with .php.jpg
 Screenshot Reference: Burp Suite - Repeater tab with shrek.jpg
 
+<img width="349" height="167" alt="Screenshot 2025-10-13 194513" src="https://github.com/user-attachments/assets/e281e9f2-f89e-4a09-b8db-01655834e05b" />
+
+<img width="340" height="107" alt="Screenshot 2025-10-13 194534" src="https://github.com/user-attachments/assets/f077d6f5-629b-4ddf-a59b-03223b32cd8f" />
+
+<img width="301" height="199" alt="Screenshot 2025-10-13 194015" src="https://github.com/user-attachments/assets/72125acb-13e4-4bdc-9e01-3ee77145d057" />
+
+<img width="323" height="301" alt="Screenshot 2025-10-13 194040" src="https://github.com/user-attachments/assets/696cf90a-a870-4456-afc3-a65ae8a78413" />
+
+<img width="938" height="679" alt="Screenshot 2025-10-13 194110" src="https://github.com/user-attachments/assets/1e6783b1-beb3-47c2-85ac-c330e19d0b06" />
+
+
 I modified the filename to shrek.php.jpg, hoping the server would treat it as a harmless image while still executing the embedded PHP code. However, the server did not execute the payload, indicating that it likely validated the file content or used a stricter blacklist.
 
 🧱 Step 4: Uploading .htaccess to Override MIME Handling
 Screenshot Reference: Burp Suite - POST request with .htaccess
 
+<img width="863" height="654" alt="Screenshot 2025-10-07 125859" src="https://github.com/user-attachments/assets/9472822d-5269-4245-8658-77759e187f8d" />
+
+<img width="859" height="641" alt="Screenshot 2025-10-07 125924" src="https://github.com/user-attachments/assets/739cf87f-5c9b-4f7a-bb90-ce7109553ed5" />
+
+
 To force the server to treat .jpg files as PHP, I uploaded a .htaccess file with the following content:
 
 apache
-SetHandler application/x-httpd-php
+AddType application/x-httpd-php .exploit
 This instructs the server to interpret files in the directory as PHP scripts, regardless of their extension.
 
 🧠 Step 5: Uploading the Web Shell as shrek.jpg
