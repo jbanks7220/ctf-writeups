@@ -1,4 +1,4 @@
-# CTF Writeups
+# PortSwigger Academy Writeups
 
-This repository contains Capture-The-Flag writeups for OverTheWire Bandit levels and Portswigger WebSecurity Academy labs.  
+This repository contains Capture-The-Flag writeups for Portswigger WebSecurity Academy labs.  
 
